@@ -1,4 +1,3 @@
- 
 function abrirModal(id, nome1) {
 let m = id +""+ nome1;
   const modal = document.getElementById(m);
@@ -54,10 +53,10 @@ function lerValoresModal2(){
 
   document.getElementById("resultadoa").innerHTML = x1.toFixed();
   document.getElementById("resultadob").innerHTML = x2.toFixed();
-  document.getElementById("dModal2").innerHTML = 'D = ( ' + a1.value + ' * ' + b2.value + ' ) - ( ' + b1.value + ' * ' + a2.value + ' )';
-  document.getElementById("x1Modal2").innerHTML = 'x1= <u>( '+ n1.value + ' * ' + b2.value + ' ) - ( ' + b1.value + ' * ' + n2.value + ' ) </u>';
+  document.getElementById("dModal2").innerHTML = 'D = ( ' + a1.value + '&nbsp; * &nbsp' + b2.value + ' ) - ( ' + b1.value + '&nbsp; * &nbsp' + a2.value + ' )';
+  document.getElementById("x1Modal2").innerHTML = 'x1= <u>( '+ n1.value + '&nbsp; * &nbsp' + b2.value + ' ) - ( ' + b1.value + '&nbsp; * &nbsp' + n2.value + ' ) </u>';
   document.getElementById("d1Modal2").innerHTML = '&nbsp;&nbsp;&nbsp;&nbsp'+dd.toFixed();
-  document.getElementById("x2Modal2").innerHTML = 'x2= <u>( ' + a1.value + ' * ' + n2.value + ' ) - ( ' + n1.value + ' * ' + a2.value + ' )</u>';
+  document.getElementById("x2Modal2").innerHTML = 'x2= <u>( ' + a1.value + '&nbsp; * &nbsp' + n2.value + ' ) - ( ' + n1.value + '&nbsp; * &nbsp' + a2.value + ' )</u>';
   document.getElementById("d2Modal2").innerHTML = '&nbsp;&nbsp;&nbsp;&nbsp'+dd.toFixed();
 }
 
@@ -82,11 +81,11 @@ function lerValoresModal3(){
   document.getElementById("resultadoc").innerHTML = x1.toFixed();
   document.getElementById("resultadod").innerHTML = x2.toFixed();
   document.getElementById("resultadoe").innerHTML = x3.toFixed();
-  document.getElementById("dModal3").innerHTML = 'D = ((  ' + a1.value + '*' + b2.value + '*' + c3.value + ')+(' + b1.value + '*' + c2.value + '*' + a3.value + ')+(' + c1.value + '*' + a2.value + '*' + b3.value + '))-((' + b1.value + '*' + a2.value + '*' + c3.value +')+(' + a1.value + '*' + c2.value + '*' + b3.value + ')+(' + c1.value + '*' + b2.value + '*' + a3.value + '))';
-  document.getElementById("x1Modal3").innerHTML = 'x1= <u>(('+n1.value+'*'+b2.value+'*'+c3.value+')+('+b1.value+'*'+c2.value+'*'+n3.value+')+('+c1.value+'*'+n2.value+'*'+b3.value+'))-(('+b1.value+'*'+n2.value+'*'+c3.value+')+('+n1.value+'*'+c2.value+'*'+b3.value+')+('+c1.value+'*'+b2.value+'*'+n3.value+'))</u>';
+  document.getElementById("dModal3").innerHTML = 'D = ((  ' + a1.value + '&nbsp; * &nbsp' + b2.value + '&nbsp; * &nbsp' + c3.value + ')+(' + b1.value + '&nbsp; * &nbsp' + c2.value + '&nbsp; * &nbsp' + a3.value + ')+(' + c1.value + '&nbsp; * &nbsp' + a2.value + '&nbsp; * &nbsp' + b3.value + '))-((' + b1.value + '&nbsp; * &nbsp' + a2.value + '&nbsp; * &nbsp' + c3.value +')+(' + a1.value + '&nbsp; * &nbsp' + c2.value + '&nbsp; * &nbsp' + b3.value + ')+(' + c1.value + '&nbsp; * &nbsp' + b2.value + '&nbsp; * &nbsp' + a3.value + '))';
+  document.getElementById("x1Modal3").innerHTML = 'x1= <u>(('+n1.value+'&nbsp; * &nbsp'+b2.value+'&nbsp; * &nbsp'+c3.value+')+('+b1.value+'&nbsp; * &nbsp'+c2.value+'&nbsp; * &nbsp'+n3.value+')+('+c1.value+'&nbsp; * &nbsp'+n2.value+'&nbsp; * &nbsp'+b3.value+'))-(('+b1.value+'&nbsp; * &nbsp'+n2.value+'&nbsp; * &nbsp'+c3.value+')+('+n1.value+'&nbsp; * &nbsp'+c2.value+'&nbsp; * &nbsp'+b3.value+')+('+c1.value+'&nbsp; * &nbsp'+b2.value+'&nbsp; * &nbsp'+n3.value+'))</u>';
   document.getElementById("d1Modal3").innerHTML = '&nbsp;&nbsp;&nbsp;&nbsp'+dd.toFixed();
-  document.getElementById("x2Modal3").innerHTML = 'x2= <u>(('+a1.value+'*'+n2.value+'*'+c3.value+')+('+n1.value+'*'+c2.value+'*'+a3.value+')+('+c1.value+'*'+a2.value+'*'+n3.value+'))-(('+n1.value+'*'+a2.value+'*'+c3.value+')+('+a1.value+'*'+c2.value+'*'+n3.value+')+('+c1.value+'*'+n2.value+'*'+a3.value+'))</u>';
+  document.getElementById("x2Modal3").innerHTML = 'x2= <u>(('+a1.value+'&nbsp; * &nbsp'+n2.value+'&nbsp; * &nbsp'+c3.value+')+('+n1.value+'&nbsp; * &nbsp'+c2.value+'&nbsp; * &nbsp'+a3.value+')+('+c1.value+'&nbsp; * &nbsp'+a2.value+'&nbsp; * &nbsp'+n3.value+'))-(('+n1.value+'&nbsp; * &nbsp'+a2.value+'&nbsp; * &nbsp'+c3.value+')+('+a1.value+'&nbsp; * &nbsp'+c2.value+'&nbsp; * &nbsp'+n3.value+')+('+c1.value+'&nbsp; * &nbsp'+n2.value+'&nbsp; * &nbsp'+a3.value+'))</u>';
   document.getElementById("d2Modal3").innerHTML = '&nbsp;&nbsp;&nbsp;&nbsp'+dd.toFixed();
-  document.getElementById("x3Modal3").innerHTML = 'x3= <u>(('+a1.value+'*'+b2.value+'*'+n3.value+')+('+b1.value+'*'+n2.value+'*'+a3.value+')+('+n1.value+'*'+a2.value+'*'+b3.value+'))-(('+b1.value+'*'+a2.value+'*'+n3.value+')+('+a1.value+'*'+n2.value+'*'+b3.value+')+('+n1.value+'*'+b2.value+'*'+a3.value+'))</u>';
+  document.getElementById("x3Modal3").innerHTML = 'x3= <u>(('+a1.value+'&nbsp; * &nbsp'+b2.value+'&nbsp; * &nbsp'+n3.value+')+('+b1.value+'&nbsp; * &nbsp'+n2.value+'&nbsp; * &nbsp'+a3.value+')+('+n1.value+'&nbsp; * &nbsp'+a2.value+'&nbsp; * &nbsp'+b3.value+'))-(('+b1.value+'&nbsp; * &nbsp'+a2.value+'&nbsp; * &nbsp'+n3.value+')+('+a1.value+'&nbsp; * &nbsp'+n2.value+'&nbsp; * &nbsp'+b3.value+')+('+n1.value+'&nbsp; * &nbsp'+b2.value+'&nbsp; * &nbsp'+a3.value+'))</u>';
   document.getElementById("d3Modal3").innerHTML = '&nbsp;&nbsp;&nbsp;&nbsp'+dd.toFixed();
 }
